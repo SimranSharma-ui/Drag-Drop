@@ -2,6 +2,7 @@ import React from 'react'
 import GenerateColor from './Componants/GenerateColor';
 import GeneratePic from './Componants/GeneratePic';
 import DragDrop from './Componants/DragDrop';
+import Rating from './Componants/Rating';
 
 const App = () => {
   const intialdata = {
@@ -14,7 +15,9 @@ const App = () => {
   {/* <GenerateColor />
   <GeneratePic/> */}
 
-  <DragDrop intialdata={intialdata}/>
+  {/* <DragDrop intialdata={intialdata}/> */}
+
+  <Rating/>
     </div>
   )
 }
